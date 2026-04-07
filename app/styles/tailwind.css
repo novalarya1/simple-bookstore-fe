@@ -1,0 +1,13 @@
+/* app/styles/tailwind.css */
+
+/* 1. Import Utama Tailwind CSS v4 */
+/* Baris ini sudah mencakup @tailwind base, components, dan utilities */
+@import "tailwindcss";
+
+/* 2. Preflight (Pembersih Gaya Bawaan Browser) */
+/* Menjamin tampilan website kamu sama di semua browser (Chrome, Safari, dll) */
+@import "tailwindcss/preflight";
+
+/* 3. Utilities Tambahan */
+/* Memastikan semua class utility (seperti flex, grid, text-center) siap digunakan */
+@import "tailwindcss/utilities";
